@@ -1,4 +1,4 @@
-create view schmatrix.detailed as
+create view detailed as
 select p.switch_id,
        p.port_id,
        p.room_id,

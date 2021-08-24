@@ -1,4 +1,4 @@
-create table schmatrix.room
+create table room
 (
     room_id    integer
         constraint room_pk
@@ -7,6 +7,6 @@ create table schmatrix.room
 );
 
 create unique index room_ip_address_uindex
-    on schmatrix.room (ip_address);
+    on room (ip_address);
 
-grant select on schmatrix.room to dhcp;
+grant select on room to dhcp;

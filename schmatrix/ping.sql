@@ -1,4 +1,4 @@
-create view schmatrix.ping as
+create view ping as
 select r.room_id, coalesce(m.ip_override, r.ip_address) as ip_address
 from room r
          join port p using (room_id)

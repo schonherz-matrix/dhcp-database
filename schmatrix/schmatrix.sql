@@ -1,1 +1,1 @@
-create schema schmatrix;
+create database schmatrix;

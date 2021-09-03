@@ -1,6 +1,6 @@
 create view detailed as
 select r.room_id,
-       s.name,
+       s.hostname                            as switch_hostname,
        p.port_id,
        m.mueb_id,
        m.mac_address,

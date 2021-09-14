@@ -1,9 +1,8 @@
 create table switch
 (
-    switch_id inet
+    switch_id text
         constraint switch_pk
-            primary key,
-    hostname  text
+            primary key
 );
 
 grant select on switch to dhcp;

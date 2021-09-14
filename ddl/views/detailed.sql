@@ -1,11 +1,10 @@
 create view detailed as
 select r.room_id,
-       s.hostname                            as switch_hostname,
+       s.switch_id                           as switch_hostname,
        p.port_id,
        m.mueb_id,
        m.mac_address,
-       coalesce(m.ip_override, r.ip_address) as ip_address,
-       get_mueb_state(m)
+       coalesce(m.ip_override, r.ip_address) as ip_address
 from room r
          join port p using (room_id)
          join switch s using (switch_id)

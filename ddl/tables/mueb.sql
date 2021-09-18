@@ -25,7 +25,6 @@ create unique index mueb_port_id_switch_id_uindex
     on mueb (port_id, switch_id);
 
 grant select on mueb to dhcp;
-grant select (mueb_id, ip_conflict) on mueb to status;
 
 grant insert (mac_address, switch_id, port_id) on mueb to dhcp;
 

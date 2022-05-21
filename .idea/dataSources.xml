@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="DataSourceManagerImpl" format="xml" multifile-model="true">
-    <data-source source="LOCAL" name="postgres@localhost" uuid="e42a257c-0857-473c-bd10-d3f2cd4be682">
+    <data-source source="LOCAL" name="schmatrix@localhost" uuid="e42a257c-0857-473c-bd10-d3f2cd4be682">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
-      <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
+      <jdbc-url>jdbc:postgresql://localhost:5432/schmatrix</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="postgres@localhost dhcp" uuid="49e3fd88-7db4-4ff0-b63c-a0359a6a4c33">
+    <data-source source="LOCAL" name="schmatrix@localhost dhcp" uuid="49e3fd88-7db4-4ff0-b63c-a0359a6a4c33">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
@@ -22,14 +22,14 @@
       <jdbc-url>jdbc:postgresql://localhost:5432/postgres</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="postgres@localhost status" uuid="8e75b104-6574-4a52-8440-a2196b08b903">
+    <data-source source="LOCAL" name="schmatrix@localhost status" uuid="8e75b104-6574-4a52-8440-a2196b08b903">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>
       <jdbc-url>jdbc:postgresql://localhost:5432/schmatrix</jdbc-url>
       <working-dir>$ProjectFileDir$</working-dir>
     </data-source>
-    <data-source source="LOCAL" name="postgres@localhost control" uuid="47eb088f-cfc1-472a-90cc-d946f49c2340">
+    <data-source source="LOCAL" name="schmatrix@localhost control" uuid="47eb088f-cfc1-472a-90cc-d946f49c2340">
       <driver-ref>postgresql</driver-ref>
       <synchronize>true</synchronize>
       <jdbc-driver>org.postgresql.Driver</jdbc-driver>

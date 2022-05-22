@@ -4,7 +4,7 @@ This database contains the tables for DHCP server functionality and debug inform
 
 ## Prerequisites
 
-- PostgreSQL **14+**
+- [PostgreSQL](https://www.postgresql.org/download/) **14+**
 
 ## How to use
 
